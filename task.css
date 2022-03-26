@@ -1,0 +1,629 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    overflow-x: hidden;
+}
+.top-1 
+{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: black;
+    padding-top: 1.5%;
+}
+.top-1 .left .red
+{
+    float: left;
+    padding-right: 50px;
+    position: relative;
+    bottom: 10px;
+    right: 55px;
+    background: red;
+}
+.top-1 .left .black
+{
+    position:relative;
+    bottom: 50px;
+    left: 80px;
+}
+.top-1 .left .black p
+{
+  color: gray;
+}
+.top-1 p
+{
+    font-size: 17px;
+    color: gray;
+}
+.top-1 .red p
+{
+    color: white;
+    text-align: center;
+}
+.header
+{
+    background: red;
+    justify-content: space-evenly;
+}
+.header .logo
+{
+    padding-left: 26%;
+    width: 30%;
+}
+.header .nav
+{
+    position:relative;
+    bottom: 80px;
+}
+.header ul
+ {
+    list-style-type: none;
+    padding-left: 35%;
+}
+.header li
+{
+    float: left;
+}
+.header li a
+{
+    display: inline-block;
+    padding: 35px;  
+    color: white;
+}
+.banner
+{
+    background-image: url("imgs/Rectangle\ 513.png"), url("imgs/banner1.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.banner .title
+{
+    width: 40%;
+    padding: 1%  0 0 10%;
+}
+.banner .title h1
+{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+.banner .title h3
+{
+    color:white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 25%;
+}
+.banner .button 
+{
+   padding: 3% 0 5% 20%;
+   border: 30px;
+}
+.banner .button .buttons
+{
+    padding: 1% 1% 1% 1%;
+    width: 15%;
+    background: #DB281E;
+    color:white;
+    font-size: 15px;
+    border: 1px solid #DB281E;
+}
+.about
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+    padding-left: 22%;
+}
+.about .desc
+{
+    padding-left: 2%;
+    width: 35%;
+}
+.about .desc h2
+{
+    font-size: 45px;
+    color:red
+}
+.about .desc p
+{
+    padding-top: 2%;
+    font-size: 22px;
+}
+.role
+{
+    background: #DA291C;
+    margin-top: 3%;
+   padding-bottom: 5%;
+}
+.role h2
+{
+    text-align: left;
+    font-size: 48px;
+    padding-top: 2%;
+    padding-left: 15%;
+    color: white;
+}
+.role .role-par
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15%;
+    width: 65%;
+    padding-top: 2%;
+}
+.role .role-par .section-1 li
+{
+    color: white;
+    font-size: 30px;
+
+}
+.role .role-par .section-2 li
+{
+    color: white;
+    font-size: 30px;
+}
+.role .role-par .section-2
+{
+    padding-left: 15%;
+}
+.work
+{
+    background-image: url("imgs/work.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+}
+.work h2
+{
+    text-align: left;
+    font-size: 48px;
+    padding-top: 2%;
+    padding-left: 20%;
+    color: white;
+}
+.work .card
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    padding-left: 20%;
+    padding-top: 2%;
+}
+.work .card .card-1
+{
+    background: white;
+    width: 80%;
+    height: 60%;
+    margin-right:5%;
+    padding-bottom:6%;
+    border-radius: 8%;
+    
+}
+.work .card .card-2
+{
+    background: white;
+    width: 80%;
+    height: 60%;
+    margin-right:5%;
+    padding-bottom:6%;
+    border-radius: 8%;
+    
+}
+.work .card .card-3
+{
+    background: white;
+    width: 80%;
+    height: 60%;
+    margin-right:5%;
+    padding-bottom:6%;
+    border-radius: 8%;  
+}
+.work .card .card-star img
+{
+   padding-left: 7%;
+   padding-top: 9%;
+}
+.work .card .card-body p
+{
+   text-align: center;
+   font-size: 20px;
+}
+.work h3
+{
+  color:  white;
+  padding-top: 2%;
+  text-align: center;
+}
+.work button
+{
+    padding: 1% 1% 1% 1%;
+    width: 15%;
+    background: #DB281E;
+    border: 1px solid #DB281E;
+    color:white;
+    font-size: 15px;
+    margin-left: 43%;
+    margin-top: 2%;
+    padding: 1% 1% 1% 1%;
+    width: 15%;
+}
+.work .card .next
+{
+    position: relative;
+    top: 98px;
+}
+.work .card .prev
+{
+    position: relative;
+    top: 98px;
+    padding-right: 5%;
+}
+.job
+{
+    background: lightgray;
+    padding-top: 5%;
+}
+.job h2
+{
+    color: red;
+    padding-top: 2%;
+    padding-left: 10%;
+    font-size: 45px;
+}
+.job button
+{
+    padding: 1% 1% 1% 1%;
+    border: 1px solid #DB281E;
+    width: 15%;
+    background: #DB281E;
+    color:white;
+    font-size: 15px;
+    position: relative;
+    bottom: 60px;
+    left: 70%;
+}
+.job h3
+{
+    color: red;
+    margin-top: 1%;
+    padding-left: 10%;
+    font-size: 30px;
+}
+.filter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%; 
+    padding-top: 2%;
+}
+.filter .results  label
+{
+    font-size: 25px;
+}
+.filter .results select
+{
+    height: 42px;
+    padding: 0  9em 0 .5em ;
+    line-height: 26px;
+    font-size: 16px;
+    width:100%;
+    border-radius: 2px;
+    color: grey;
+    appearance: none;
+    text-align: left;
+}
+.filter .results .cusatom-arrow
+{
+    color: red;
+    position:relative;
+    left: 90%;
+    bottom: 30px;
+
+}
+.filter .results select option
+{
+    font-size: 20px;
+}
+.range
+{
+    background: lightgray;
+}
+.filter .range p
+{
+    color: red;
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+.range .limit
+{
+    position: relative;
+    left: 82%;
+    top: 10px;
+}
+.range .line
+{
+    padding-top: 2%;
+    position: relative;
+    top: 2px;
+    left: 10%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.job-card .cards
+{
+    padding-top: 2%;
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+.job-card .card-section-1 #card-1
+{
+    padding-top: 3%;
+    margin-left: 20%;
+    width: 70%;
+    background-color: white;
+    height: 45%;
+    border: 1px solid black;
+    border-radius: 7px;
+    border-bottom: 7px solid red;
+
+}
+.job-card .card-section-1 #card-2
+{
+    margin-left: 20%;
+    padding-top: 3%;
+    margin-top: 5% ;
+    width: 70%;
+    background-color: white;
+    height: 45%;
+    border: 1px solid black;
+    border-radius: 7px;
+    border-bottom: 7px solid red;
+
+}
+.job-card #card-section-2
+{
+    padding-right: 5%;
+}
+.job-card #card-section-1
+{
+    padding-left:5%;
+}
+.job-card .card-section-1 .card h3 
+{
+    padding-left: 5%;
+    color: red;
+    font-size: 30px;
+}
+.job-card .card-section-1 .card .card-body
+{
+    border-bottom: 2px solid grey;
+}
+.job-card .card-section-1 .card p
+{
+    padding-top: 3%;
+    padding-left: 5%;
+    font-size: 20px;
+} 
+.job-card .card-section-1 .card ul
+{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 20px;
+    list-style-type: none;
+} 
+.job-card .card-section-1 .card .des .desc 
+{
+    padding-top: 3%;
+    color: red;
+    font-size: 20px;
+}
+.job-card .card-section-1 .card .des .cusatom-des
+{
+    float: right;
+    position: relative;
+    bottom: 25px;
+    right: 15px;
+    color: red;
+    font-size: 25px;
+   
+}
+.job-card .card-section-1 .card .new
+{
+    color: white;
+    background: green;
+    width: 60px;
+    height: 25px;
+    text-align: center; 
+    position: relative;
+    bottom: 270px;
+    left: 80%;
+    font-size: 18px;
+    padding: 1% 0 0 1%;
+    border-radius: 8px;
+}
+.job-card .card-section-1 .card .add
+{
+    color: lightgray;
+    text-align: left; 
+    position: relative;
+    bottom: 45px;
+    left: 75%;
+    font-size: 18px;
+}
+.job-card .pagination
+{
+    background: lightgrey;
+    padding-top: 5%;
+    padding-left: 40%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.job-card .pagination a
+{
+  display: inline-block;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 1px solid black;
+  background: white;
+}
+.job-card .pagination .next 
+{
+    float: right;
+    padding-right: 25%;
+    position: relative;
+    bottom: 5px;
+}
+.job-card .pagination .next .cusatom-next
+{
+    background-color: white;
+    border: 1px solid red;
+    padding: 8px  15px;
+    color: red;
+}
+.job-card .pagination .next .cusatom-nextd
+{
+    color:red;
+    position: relative;
+    right: 25px;
+
+}
+.contact-us
+{
+    padding-top: 5%;
+    height: 100%;
+    background-image: linear-gradient(to right, brown , red);
+}
+.contact-us .us
+{
+    float: right;
+    padding: 15px  10px;
+    background-color: white;
+    border: 1px solid red;
+    position: relative;
+    bottom:200px;
+    right: 12%;
+    font-size: 20px;
+    width: 10%;
+    color: red;
+    height: 30px;
+    text-align: center;
+}
+.contact-us h2
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-right: 20%;
+}
+.contact-us .contact-u
+{
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.contact-us .contact-arrow
+{
+    color: red;
+    position: relative;
+    left: 85%;
+    bottom: 222px;
+}
+.contact-us .contact-line
+{
+    position: relative;
+    color: white;
+    left: 40%;
+    bottom: 190px;
+    font-size: 35px;
+}
+.contact
+{
+    background: #394447;
+    padding-top: 5%;
+}
+.contact h3
+{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 18%;
+}
+.contact .list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    padding-left: 20%;
+}
+.contact .list li
+{
+    list-style-type: none;
+    color: white;
+}
+.contact .social-icon 
+{
+    width: 15%;
+    padding-left: 80%;
+    padding-top: 1%;
+}
+.contact .social-icon li
+{
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 50% ;
+}
+.contact .branch h4
+{
+    color: white;
+    font-size: 21px;
+}
+.contact .branch .search
+{
+    width: 20%;
+    height: 30px;
+    border-style: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+}
+.contact .branch
+{
+    padding-left: 18%;
+    padding-bottom: 5%;
+}
+.footer-2
+{
+    background: #283133;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.footer-2 img
+{
+    padding-left: 15%;
+}
+.footer-2 p
+{
+    color: white;
+    float: right;
+    position: relative;
+    right: 25%;
+}
